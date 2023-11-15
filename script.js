@@ -4,10 +4,3 @@ boton.forEach(button => {
         alert("Añadido al carro");
     })
 });
-
-const link = document.querySelectorAll("a")
-link.forEach(a => {
-    a.addEventListener("click", function() {
-        alert("ERROR 404 - SITE NOT FOUND")
-    })
-})

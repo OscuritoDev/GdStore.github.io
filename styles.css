@@ -5,18 +5,26 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#content {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(165, 79, 42), rgb(63, 31, 17));
+    padding: 10px;
+}
+
 #items {
     display:flex;
     background-color: rgb(0, 0, 250);
     border: 2px solid white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 a {
     margin: 7px;
     color: #ffffff;
+    text-decoration: none;
 }
 
 a:visited {
@@ -25,13 +33,14 @@ a:visited {
 
 #logo {
     height: 127px;
+    width: 87em;
 }
 
 button {
-    font-family: fantasy;
+    font-family: cursive;
     height: 60px;
     width: 120px;
-    background-color: #a6ff00;
+    background-image: linear-gradient(#a6ff00, rgb(0, 177, 56));
     border: 2px solid white;
     margin: 10px;
 }
@@ -41,7 +50,6 @@ button {
     text-align: center;
     grid-gap: 10px 10px;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
 }
 
 #portadas div {
@@ -49,6 +57,7 @@ button {
     border-radius: 5px;
     margin: 5px;
     background-color: blue;
+    font-size: 22px;
 }
 
 #portadas div img {
@@ -56,4 +65,69 @@ button {
     border-radius: 5px;
     margin: 5px;
     height: 190px;
+}
+
+#encabezado {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, red, green, blue);
+    padding: 10px;
+}
+
+#datos {
+    padding: 15px;
+}
+
+
+
+#cuerpo-de-pagina {
+    text-align: center;
+    display: flex;
+    justify-content: end;
+}
+
+#portadas-v2 {
+    gap: 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#portadas-v2 div {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: blue;
+}
+
+#portadas-v2 div img {
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    height: 190px;
+}
+
+#welcome {
+    border: 4px solid black;
+    color: black;
+    background-image: radial-gradient(gray, white);
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: auto;
+    font-size: 22px;
+}
+
+h2 {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, red, green, blue);
+    padding: 10px;
+    margin-inline: 5px;
+}
+
+#contactos, #acercaDe {
+    font-size: 22px;
+}
+
+#promo {
+    width: 40em;
 }
