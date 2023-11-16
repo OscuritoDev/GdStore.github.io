@@ -12,6 +12,13 @@ body {
     padding: 10px;
 }
 
+#contenido {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(165, 79, 42), rgb(63, 31, 17));
+    padding: 20px;
+}
+
 #items {
     display:flex;
     background-color: rgb(0, 0, 250);
@@ -80,7 +87,7 @@ button {
 
 
 
-#cuerpo-de-pagina {
+#cuerpo-de-pagina, #contenido {
     text-align: center;
     display: flex;
     justify-content: end;
@@ -111,7 +118,7 @@ button {
     color: black;
     background-image: radial-gradient(gray, white);
     margin-right: 10px;
-    padding: 10px;
+    padding: 18px;
     margin-bottom: auto;
     font-size: 22px;
 }
@@ -130,4 +137,14 @@ h2 {
 
 #promo {
     width: 40em;
+    border: 2px solid white;
+    margin-top: 20px;
+}
+
+#media-fire {
+    width: 18em;
+}
+
+#text {
+    margin-inline: 1em;
 }
